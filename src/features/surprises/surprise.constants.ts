@@ -108,7 +108,7 @@ export const localSurprise: Surprise = {
       description: "Mesmo que eu pudesse nos definir com diversas músicas, acho que é essa que sempre me faz sorrir lembrando de você.",
       name: "Exagerado",
       artist: "Cazuza",
-      url: "",
+      url: "https://music.youtube.com/watch?v=Qi5I7_RDd-8&si=pkZYGg0ggQ4iVlPA",
       embed: false,
     },
     timeline: {
