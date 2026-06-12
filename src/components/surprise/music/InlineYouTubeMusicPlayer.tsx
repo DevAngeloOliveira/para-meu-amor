@@ -219,18 +219,14 @@ export function InlineYouTubeMusicPlayer({ music }: { music: SurpriseMusic }) {
         <Image
           src={musicCoverPhoto}
           alt=""
-          className={`h-full w-full object-cover transition ${
-            isPlaying ? "opacity-0" : "opacity-100"
-          }`}
+          className="h-full w-full object-cover"
           sizes="112px"
         />
         {videoId ? (
           <div
             ref={hostRef}
-            className={`absolute inset-0 transition ${
-              isPlaying ? "opacity-100" : "opacity-0"
-            }`}
-            aria-hidden={!isPlaying}
+            className="pointer-events-none absolute h-px w-px overflow-hidden opacity-0"
+            aria-hidden
           />
         ) : null}
       </div>
